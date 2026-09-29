@@ -61,7 +61,9 @@
     {
       "step": 7,
       "name": "ui-controls",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-09-29T19:59:53+0900",
+      "summary": "src/lib/format.ts(순수: formatCount Intl ko-KR compact 1234→1.2천·15300→1.5만, formatPercent 소수 첫째 자리 0.0421→4.2%, formatDuration 반올림 후 45초/2분 5초/3분·음수도 -, formatMultiplier ×1.8·×2.0, formatDate UTC YYYY.MM.DD·잘못된 값 -, NaN·Infinity는 모두 -)와 props만 받는 표시용 컴포넌트 4개(fetch·localStorage 미접근) 구현 — SearchControls({initialQuery?, loading, onSubmit(TrendQuery)}, \"use client\": CATEGORY_IDS 순 카테고리 버튼(aria-pressed·amber, 키워드가 있으면 전부 false, 클릭 시 키워드 입력 비움)·직접 키워드 input(maxLength=MAX_QUERY_LENGTH)·기간 select(최근 N일)·분석하기/분석 중… 버튼, form submit(Enter)에서 trim한 입력이 있으면 custom 아니면 category 쿼리, loading이면 제출 무시), SummaryStats({summary, query, days}, 서버 호환: \"{query} · 최근 {days}일\" h2 + dl 6칸 tabular-nums), IdeaCard({idea, saved, onToggleSave}, \"use client\": 키워드 h3로 이름 붙은 article, 기회 지수 formatMultiplier·1.5 이상 amber, fallback이면 기회 지수 대신 기본 제안, 제목 후보 ol, 첫 3초: 훅, 근거, 참고 영상 https://www.youtube.com/shorts/{id} 새 탭 링크+채널·조회수, 저장/저장됨 aria-pressed 버튼), SavedIdeasPanel({ideas, onRemove}, \"use client\": 저장한 아이디어 (n) h2, 항목별 키워드·첫 제목·formatDate 저장일·aria-label \"{keyword} 삭제\" 버튼, 빈 상태 문구); format.test.ts(node)와 컴포넌트 테스트 4개(jsdom·user-event, 총 60개) 추가"
     },
     {
       "step": 8,
