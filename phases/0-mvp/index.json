@@ -1,0 +1,16 @@
+{
+  "project": "Shorts Idea Lab",
+  "phase": "0-mvp",
+  "steps": [
+    { "step": 0, "name": "project-setup", "status": "pending" },
+    { "step": 1, "name": "core-types", "status": "pending" },
+    { "step": 2, "name": "youtube-service", "status": "pending" },
+    { "step": 3, "name": "text-tokenizer", "status": "pending" },
+    { "step": 4, "name": "analysis-engine", "status": "pending" },
+    { "step": 5, "name": "api-route", "status": "pending" },
+    { "step": 6, "name": "saved-ideas", "status": "pending" },
+    { "step": 7, "name": "ui-controls", "status": "pending" },
+    { "step": 8, "name": "ui-tables", "status": "pending" },
+    { "step": 9, "name": "dashboard-page", "status": "pending" }
+  ]
+}
