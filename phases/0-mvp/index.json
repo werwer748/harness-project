@@ -77,7 +77,9 @@
     {
       "step": 9,
       "name": "dashboard-page",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-09-29T20:09:16+0900",
+      "summary": "src/components/Dashboard.tsx(\"use client\", 앱 유일 상태 보유: report·loading·error(ApiErrorBody['error'])·savedIdeas) 구현 — 마운트 시 자동 검색 없음·안내 문구 '카테고리를 고르고 분석하기를 누르세요.', SearchControls.onSubmit → fetch(`/api/trends?${toTrendSearchParams(query)}`) 단일 인자, 요청 시작 시 report·error 비우고 loading, res.json 실패·error 형태 아닌 비정상 body → {INTERNAL_ERROR,'요청을 처리하지 못했습니다'}, 네트워크 예외 → INTERNAL_ERROR 고정 한국어 message(원본 문구 미노출), useRef 요청 번호 비교로 이전 요청 응답·실패·loading 해제 무시, 로딩 중 role=status animate-pulse 스켈레톤(sr-only 문구), 에러는 role=alert red 박스+MISSING_API_KEY면 `cp .env.example .env.local`·YOUTUBE_API_KEY·재시작 안내, 리포트는 SummaryStats → '다음 콘텐츠 추천' h2 섹션(IdeaCard md 2열 그리드) → KeywordTable → PatternStats → TopVideosTable 순, summary.videoCount 0이면 표 대신 '조건에 맞는 쇼츠가 없습니다. 기간을 늘리거나 다른 키워드를 시도하세요.'(fallback 카드 유지), localStorage는 useEffect에서만 loadSavedIdeas, onToggleSave는 isIdeaSaved면 removeIdea 아니면 saveIdea(idea, new Date()) 반환값으로 갱신, SavedIdeasPanel onRemove=removeIdea, 레이아웃 lg:grid-cols-[minmax(0,1fr)_20rem](저장 패널 우측 열·모바일 하단)·space-y-8; src/app/page.tsx는 Server Component 유지(main max-w-6xl mx-auto px-4 + header h1 'Shorts Idea Lab'·설명 한 줄 + <Dashboard />), 루트 README.md(소개·실행·키 발급 요약(리퍼러 제한 금지)·스크립트 표·쿼터 주의) 추가; Dashboard.test.tsx(jsdom, fetch stubGlobal·localStorage.clear, videos-page fixture를 analyzeShorts로 만든 리포트 사용, SearchControls는 실제 렌더하되 onSubmit을 잡아 로딩 중 두 번째 요청 전송, 19개: 초기 fetch 0회·effect 로드·renderToString 중 getItem 미호출, URL category=life-tips&days=30·custom q, 렌더 순서, 스켈레톤, 0개 영상, 에러 5종, 저장·해제·패널 삭제·기존 저장 표시, 경쟁 상태 3종)·page.test.tsx 설명/대시보드 검증 추가 — 전체 426개 통과, 키 없이 빌드 성공"
     }
   ],
   "created_at": "2026-09-29T19:26:28+0900"
