@@ -45,7 +45,10 @@
     {
       "step": 5,
       "name": "api-route",
-      "status": "pending"
+      "status": "completed",
+      "started_at": "2026-09-29T19:53:13+0900",
+      "summary": "src/lib/trendQuery.ts(클라이언트·서버 공용 순수 규약: MAX_QUERY_LENGTH=50·ParseResult·parseTrendQuery(URLSearchParams) — trim한 q가 있으면 category 무시하고 custom(코드 포인트 50자 초과 에러), 없으면 isCategoryId 통과한 category, days는 없으면 30·문자열 '7'|'30'|'90'만 허용('15'·'abc'·'07' 에러), 한국어 에러 message / toTrendSearchParams(TrendQuery) — category는 category+days, custom은 q+days, parse와 왕복 동일)와 src/app/api/trends/route.ts(export dynamic='force-dynamic'·GET(Request): 표준 Request/Response만 사용, 쿼리 실패→400 BAD_REQUEST, category면 queries=시드 3개·query=카테고리 라벨·fallback=시드, custom이면 queries=[q]·query=q·fallback=[q], 핸들러 안에서 now=new Date() → services/youtube.fetchShorts({queries,days,now}) → analyzeShorts(excludedTerms=toExcludedTerms(queries)) → 200 TrendReport JSON; YouTubeApiError.code 매핑 MISSING_API_KEY 500·QUOTA_EXCEEDED 429·INVALID_KEY/API_NOT_ENABLED/UPSTREAM_ERROR 502, 그 외 예외 500 INTERNAL_ERROR, body는 항상 ApiErrorBody {error:{code,message}}·라우트 고유 한국어 message, console.error는 '[api/trends] code: message' 문자열 1개만) 구현, trendQuery.test.ts·route.test.ts(node 환경, fetchShorts만 vi.mock·YouTubeApiError 실제 클래스, Date만 fake timer로 고정, videos-page fixture 결과를 analyzeShorts 직접 호출 결과와 비교, 400 시 fetchShorts 0회, 에러 5종+일반 Error/비Error 값의 status·code·로그 비노출 검증) 추가 — 빌드 로그 /api/trends ƒ Dynamic, 키 없이 빌드 성공",
+      "completed_at": "2026-09-29T19:56:43+0900"
     },
     {
       "step": 6,
