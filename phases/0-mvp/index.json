@@ -15,7 +15,8 @@
       "name": "core-types",
       "status": "completed",
       "started_at": "2026-09-29T19:29:21+0900",
-      "summary": "src/types/{category,video,report,api,index}.ts에 도메인 타입(CategoryId·ReportScope·Days·TitleTemplate·TemplateSet·CategoryConfig, ShortVideo·VideoMetrics·ScoredVideo, KeywordStat·TitlePattern(Stat)·DurationBucket(Stat)·ReferenceVideo·ContentIdea·SavedIdea·ReportSummary·TrendReport, TrendQuery·ApiErrorCode·ApiErrorBody) 정의 후 index.ts에서 전부 re-export, src/lib/categories.ts에 CATEGORIES(3개 카테고리: 라벨·설명·시드 3개·제목 템플릿 6개·훅 4개)·CATEGORY_IDS·CUSTOM_TEMPLATES·DAYS_OPTIONS·isCategoryId·isDays·getTemplateSet 구현 (템플릿의 {keyword} 바로 뒤에 받침 의존 조사 미사용), categories.test.ts 추가"
+      "summary": "src/types/{category,video,report,api,index}.ts에 도메인 타입(CategoryId·ReportScope·Days·TitleTemplate·TemplateSet·CategoryConfig, ShortVideo·VideoMetrics·ScoredVideo, KeywordStat·TitlePattern(Stat)·DurationBucket(Stat)·ReferenceVideo·ContentIdea·SavedIdea·ReportSummary·TrendReport, TrendQuery·ApiErrorCode·ApiErrorBody) 정의 후 index.ts에서 전부 re-export, src/lib/categories.ts에 CATEGORIES(3개 카테고리: 라벨·설명·시드 3개·제목 템플릿 6개·훅 4개)·CATEGORY_IDS·CUSTOM_TEMPLATES·DAYS_OPTIONS·isCategoryId·isDays·getTemplateSet 구현 (템플릿의 {keyword} 바로 뒤에 받침 의존 조사 미사용), categories.test.ts 추가",
+      "completed_at": "2026-09-29T19:33:28+0900"
     },
     {
       "step": 2,
