@@ -1,0 +1,129 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "fixture-search-etag",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": { "totalResults": 1000000, "resultsPerPage": 25 },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidFridge01",
+      "id": { "kind": "youtube#video", "videoId": "vidFridge01" },
+      "snippet": {
+        "publishedAt": "2026-09-08T08:00:00Z",
+        "channelId": "UCsalimharu",
+        "title": "냉장고 정리하는 방법 #살림꿀팁",
+        "channelTitle": "살림하는 하루",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidMorning1",
+      "id": { "kind": "youtube#video", "videoId": "vidMorning1" },
+      "snippet": {
+        "publishedAt": "2026-09-20T09:00:00Z",
+        "channelId": "UCsalimharu",
+        "title": "아침루틴 3가지만 바꿔도 하루가 달라져요 #shorts",
+        "channelTitle": "살림하는 하루",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidQuote001",
+      "id": { "kind": "youtube#video", "videoId": "vidQuote001" },
+      "snippet": {
+        "publishedAt": "2026-09-15T21:00:00Z",
+        "channelId": "UCmaeumhanjul",
+        "title": "힘들 때 듣는 &quot;인생 명언&quot; 한 줄",
+        "channelTitle": "마음 한 줄",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidMorning2",
+      "id": { "kind": "youtube#video", "videoId": "vidMorning2" },
+      "snippet": {
+        "publishedAt": "2026-09-24T11:30:00Z",
+        "channelId": "UCjachwilog",
+        "title": "자취생 아침루틴, 10분이면 충분할까?",
+        "channelTitle": "자취생 로그",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidSelf0001",
+      "id": { "kind": "youtube#video", "videoId": "vidSelf0001" },
+      "snippet": {
+        "publishedAt": "2026-09-12T12:00:00Z",
+        "channelId": "UCsaenggaklab",
+        "title": "나를 객관적으로 보는 5가지 질문, 몇 개나 해당되나요?",
+        "channelTitle": "생각정리 연구소",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidQuote002",
+      "id": { "kind": "youtube#video", "videoId": "vidQuote002" },
+      "snippet": {
+        "publishedAt": "2026-09-26T22:10:00Z",
+        "channelId": "UCmaeumhanjul",
+        "title": "습관이 인생을 바꾼다 | 동기부여 명언",
+        "channelTitle": "마음 한 줄",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidNoLike01",
+      "id": { "kind": "youtube#video", "videoId": "vidNoLike01" },
+      "snippet": {
+        "publishedAt": "2026-09-22T07:45:00Z",
+        "channelId": "UCsaenggaklab",
+        "title": "자기객관화 안 되는 사람 특징 #shorts",
+        "channelTitle": "생각정리 연구소",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidLongVid1",
+      "id": { "kind": "youtube#video", "videoId": "vidLongVid1" },
+      "snippet": {
+        "publishedAt": "2026-09-05T10:00:00Z",
+        "channelId": "UCjachwilog",
+        "title": "자취방 대청소 브이로그 풀버전",
+        "channelTitle": "자취생 로그",
+        "liveBroadcastContent": "none"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidLiveNow1",
+      "id": { "kind": "youtube#video", "videoId": "vidLiveNow1" },
+      "snippet": {
+        "publishedAt": "2026-09-28T15:00:00Z",
+        "channelId": "UCmaeumhanjul",
+        "title": "새벽 명언 라디오 실시간",
+        "channelTitle": "마음 한 줄",
+        "liveBroadcastContent": "live"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fixture-search-vidP0D00001",
+      "id": { "kind": "youtube#video", "videoId": "vidP0D00001" },
+      "snippet": {
+        "publishedAt": "2026-09-27T06:00:00Z",
+        "channelId": "UCsalimharu",
+        "title": "살림 꿀팁 모음 (처리 중)",
+        "channelTitle": "살림하는 하루",
+        "liveBroadcastContent": "none"
+      }
+    }
+  ]
+}

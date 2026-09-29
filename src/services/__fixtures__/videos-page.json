@@ -1,0 +1,234 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "fixture-videos-etag",
+  "pageInfo": { "totalResults": 10, "resultsPerPage": 10 },
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidFridge01",
+      "id": "vidFridge01",
+      "snippet": {
+        "publishedAt": "2026-09-08T08:00:00Z",
+        "channelId": "UCsalimharu",
+        "title": "냉장고 정리하는 방법 #살림꿀팁",
+        "description": "칸마다 용도를 정해 두면 장보기도 쉬워져요.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidFridge01/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidFridge01/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidFridge01/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "살림하는 하루",
+        "tags": ["냉장고정리", "살림꿀팁", "정리정돈", "생활꿀팁"],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT1M12S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "254000", "likeCount": "12000", "favoriteCount": "0", "commentCount": "480" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidMorning1",
+      "id": "vidMorning1",
+      "snippet": {
+        "publishedAt": "2026-09-20T09:00:00Z",
+        "channelId": "UCsalimharu",
+        "title": "아침루틴 3가지만 바꿔도 하루가 달라져요 #shorts",
+        "description": "매일 아침 5분 투자로 달라지는 하루 #아침루틴 #자기관리",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidMorning1/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidMorning1/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidMorning1/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "살림하는 하루",
+        "tags": ["아침루틴", "자기관리", "생활꿀팁"],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT45S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "182000", "likeCount": "9100", "favoriteCount": "0", "commentCount": "320" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidQuote001",
+      "id": "vidQuote001",
+      "snippet": {
+        "publishedAt": "2026-09-15T21:00:00Z",
+        "channelId": "UCmaeumhanjul",
+        "title": "힘들 때 듣는 \"인생 명언\" 한 줄",
+        "description": "오늘 하루도 버텨 낸 당신에게.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidQuote001/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidQuote001/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidQuote001/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "마음 한 줄",
+        "tags": ["명언", "인생명언", "습관", "동기부여"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT32S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "143000", "likeCount": "8800", "favoriteCount": "0", "commentCount": "150" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidMorning2",
+      "id": "vidMorning2",
+      "snippet": {
+        "publishedAt": "2026-09-24T11:30:00Z",
+        "channelId": "UCjachwilog",
+        "title": "자취생 아침루틴, 10분이면 충분할까?",
+        "description": "출근 전 10분, 자취방에서 하는 아침 습관.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidMorning2/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidMorning2/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidMorning2/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "자취생 로그",
+        "tags": ["아침루틴", "자취꿀팁", "습관"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT58S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "96000", "likeCount": "4100", "favoriteCount": "0", "commentCount": "210" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidSelf0001",
+      "id": "vidSelf0001",
+      "snippet": {
+        "publishedAt": "2026-09-12T12:00:00Z",
+        "channelId": "UCsaenggaklab",
+        "title": "나를 객관적으로 보는 5가지 질문, 몇 개나 해당되나요?",
+        "description": "메타인지를 키우는 질문 다섯 개.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidSelf0001/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidSelf0001/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidSelf0001/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "생각정리 연구소",
+        "tags": ["자기객관화", "메타인지", "자기관리"],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT55S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "78000", "likeCount": "5200", "favoriteCount": "0", "commentCount": "640" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidQuote002",
+      "id": "vidQuote002",
+      "snippet": {
+        "publishedAt": "2026-09-26T22:10:00Z",
+        "channelId": "UCmaeumhanjul",
+        "title": "습관이 인생을 바꾼다 | 동기부여 명언",
+        "description": "작은 습관 하나가 만드는 큰 차이.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidQuote002/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidQuote002/mqdefault.jpg", "width": 320, "height": 180 }
+        },
+        "channelTitle": "마음 한 줄",
+        "tags": ["습관", "동기부여", "명언"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT24S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "61000", "likeCount": "3000", "favoriteCount": "0", "commentCount": "95" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidNoLike01",
+      "id": "vidNoLike01",
+      "snippet": {
+        "publishedAt": "2026-09-22T07:45:00Z",
+        "channelId": "UCsaenggaklab",
+        "title": "자기객관화 안 되는 사람 특징 #shorts",
+        "description": "혹시 나도? 끝까지 보고 체크해 보세요.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidNoLike01/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidNoLike01/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidNoLike01/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "생각정리 연구소",
+        "tags": ["자기객관화", "습관", "자기성찰"],
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT40S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "52000", "favoriteCount": "0", "commentCount": "180" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidLongVid1",
+      "id": "vidLongVid1",
+      "snippet": {
+        "publishedAt": "2026-09-05T10:00:00Z",
+        "channelId": "UCjachwilog",
+        "title": "자취방 대청소 브이로그 풀버전",
+        "description": "3분 넘는 풀버전 청소 영상.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidLongVid1/default.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidLongVid1/mqdefault.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidLongVid1/hqdefault.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "자취생 로그",
+        "tags": ["자취", "청소", "브이로그"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT3M25S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "31000", "likeCount": "900", "favoriteCount": "0", "commentCount": "40" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidLiveNow1",
+      "id": "vidLiveNow1",
+      "snippet": {
+        "publishedAt": "2026-09-28T15:00:00Z",
+        "channelId": "UCmaeumhanjul",
+        "title": "새벽 명언 라디오 실시간",
+        "description": "잠 못 드는 밤, 명언 한 줄씩 읽어 드려요.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidLiveNow1/default_live.jpg", "width": 120, "height": 90 },
+          "medium": { "url": "https://i.ytimg.com/vi/vidLiveNow1/mqdefault_live.jpg", "width": 320, "height": 180 },
+          "high": { "url": "https://i.ytimg.com/vi/vidLiveNow1/hqdefault_live.jpg", "width": 480, "height": 360 }
+        },
+        "channelTitle": "마음 한 줄",
+        "tags": ["명언", "라디오", "실시간"],
+        "categoryId": "22",
+        "liveBroadcastContent": "live",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "PT59S", "dimension": "2d", "definition": "hd" },
+      "statistics": { "viewCount": "4200", "likeCount": "310", "favoriteCount": "0", "commentCount": "12" }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "fixture-vidP0D00001",
+      "id": "vidP0D00001",
+      "snippet": {
+        "publishedAt": "2026-09-27T06:00:00Z",
+        "channelId": "UCsalimharu",
+        "title": "살림 꿀팁 모음 (처리 중)",
+        "description": "업로드 처리 중인 영상.",
+        "thumbnails": {
+          "default": { "url": "https://i.ytimg.com/vi/vidP0D00001/default.jpg", "width": 120, "height": 90 }
+        },
+        "channelTitle": "살림하는 하루",
+        "tags": ["살림꿀팁", "생활꿀팁"],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": { "duration": "P0D", "dimension": "2d", "definition": "sd" },
+      "statistics": { "viewCount": "0", "likeCount": "0", "favoriteCount": "0", "commentCount": "0" }
+    }
+  ]
+}
