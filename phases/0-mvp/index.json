@@ -56,7 +56,7 @@
       "status": "completed",
       "started_at": "2026-09-29T19:57:10+0900",
       "summary": "src/lib/savedIdeas.ts(React·외부 라이브러리 없음, window·localStorage는 함수 안에서만 접근) 구현 — SAVED_IDEAS_KEY='shorts-idea-lab:saved-ideas:v1'·MAX_SAVED_IDEAS=100·비공개 StorageLike=Pick<Storage,'getItem'|'setItem'>, getBrowserStorage()(window 없으면 null, window.localStorage 접근 try/catch→null), 모든 함수의 storage 인자는 생략 시 getBrowserStorage()·null이면 저장 없이 계산만, loadSavedIdeas(storage?)(getItem·JSON.parse 실패/배열 아님→[], 필수 필드 id·keyword·savedAt 문자열·titles 문자열 배열 아닌 항목은 버림, 같은 id는 앞의 것만, 절대 던지지 않음), saveIdea(idea, now, storage?)(같은 id 있으면 기존 목록 그대로 반환·쓰기 없음, 없으면 {...idea, savedAt: now.toISOString()} 스냅샷 전체를 맨 앞에 추가 후 100개로 자름), removeIdea(id, storage?)(없는 id면 쓰기 없음), isIdeaSaved(ideas, id)(id 비교) — setItem 예외(용량 초과)는 삼키고 계산된 목록 반환, 아이디어 id는 step 4 값 그대로 사용; savedIdeas.test.ts(node, 31개: Map 기반 가짜 storage, 빈 저장소·왕복·최신 맨 앞·스냅샷 전체 저장·멱등·삭제·손상 JSON/객체/null/필수 필드 누락 섞임·중복 id·getItem/setItem 예외·100개 초과 잘림·storage=null·생략 시 node에서 null, vi.stubGlobal로 window.localStorage 사용·접근 시 예외→null) 추가",
-      "completed_at": "2026-09-29T19:59:17+0900"
+      "completed_at": "2026-09-29T19:59:53+0900"
     },
     {
       "step": 7,
